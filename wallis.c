@@ -1,3 +1,4 @@
+
 #include <assert.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -23,8 +24,7 @@ int main(void) {
     }
   }
 }
-
-float wallis_pi(int n)
+  float wallis_pi(int n)
  {
     float s=1.0;
     for (int i=1; i<=n; i++)
